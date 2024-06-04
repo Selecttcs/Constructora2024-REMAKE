@@ -45,7 +45,32 @@
                 </div>
             </div>
         </header>
-        
+        <h1 style="margin-left: 800px;">Modulo inventario</h1>
+        <br>
+        <div class="col-12" id = "productos">
+          <table class = "table table-striped" id = "lista_prod">
+              <tr>
+                  <td>ID</td>
+                  <td>PRODUCTO</td>
+                  <td>CANTIDAD</td>
+                  <td>FORMATO ALMACENAJE</td>
+                  <td>ACCIONES</td>
+              </tr>
+          </table>
+        </div>
+        <div class="container" >
+            <br><br><br>
+            <h1 style="margin-left: 490px;">Añadir Productos</h1><br><br>
+                <form class = "col-6" style="margin-left: 300px;">
+                    <label>Nombre producto</label>
+                    <input type="text" class = "form-control" id = "nombre_prod">
+                    <label>Cantidad</label>
+                    <input type="text" class = "form-control" id = "cantidad_prod">
+                    <label>Formato almacenaje</label>
+                    <input type="text" class = "form-control" id = "formato_prod">
+                    <br><button type = "button" class = "btn btn-success" id = "agregar_prod">Agregar</button>
+                </form>
+        </div>
 
 
         <!-- Bootstrap core JS-->
