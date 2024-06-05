@@ -2,7 +2,12 @@
 
 
 .contacto{
-  margin-left: 1500px;
+  margin-left: 1400px;
+}
+
+.personas{
+  margin-left: 860px;  
+  margin-top: 100px;
 }
 
 :root {
@@ -8156,7 +8161,8 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(157,49,95,1) 100%); !important;
 }
 
 .bg-black {

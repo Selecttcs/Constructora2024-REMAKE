@@ -49,6 +49,13 @@ function agregarProd(){
         $('#formato_prod').val('');
         $('#nombre_prod').focus();
         cant++;
+        Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Producto Agregado con Éxito!",
+                showConfirmButton: false,
+                timer: 3500
+              });
 };
     }
     
