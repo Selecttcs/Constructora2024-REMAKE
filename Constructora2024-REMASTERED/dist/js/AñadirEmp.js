@@ -73,7 +73,8 @@ function agregarEmp(){
                 icon: "success",
                 title: "Empleado Agregado con Éxito!",
                 showConfirmButton: false,
-                timer: 3500
+                timer: 3500,
+                
               });
     }
 };
